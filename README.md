@@ -24,7 +24,7 @@ Alternatively, the included [environment.yml](environment.yml) file will produce
 
 ##### Reproducing ECO-DQN agents and tests
 
-We train agents on two different types of graph called Erd\H{o}s-R\'{e}nyi (ER) and Barabasi-Albert (BA).  For each graph type we train the agents on 20, 40, 60, 100, 200 and 500 vertex graphs. *Note the code typically refers to a ***vertex*** as a ***spin***.*
+We train agents on two different types of graph called Erdos-Renyi (ER) and Barabasi-Albert (BA).  For each graph type we train the agents on 20, 40, 60, 100, 200 and 500 vertex graphs. *Note the code typically refers to a ***vertex*** as a ***spin***.*
 
 Training these agents can be reproduced by running the corresponding scripts. *Replace ER_20spin below with the appropriate folder for different agents.*
 
