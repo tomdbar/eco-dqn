@@ -40,7 +40,7 @@ The creates a directory ``ER_20spin/eco/network`` to store following.
 Agents are then typically tested on graphs of the same type of the same or greater size.  To test an agent, presuming the training script has already been run, simply use:
 
     >>> cd eco-dqn
-    >>> python -m experiments.ER_20spin.train.test_eco
+    >>> python -m experiments.ER_20spin.test.test_eco
  
 *Edit these scripts to only test on a subset of possible graph sizes if desired.*
     
