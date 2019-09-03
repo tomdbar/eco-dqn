@@ -75,7 +75,7 @@ Contains the graph instances used in the paper.  This is split into three catago
 
 Within each of these sub-folders, the ``opts/`` folder contains the "optimum" solutions/values (best known for the benchmarking graphs, and the best found by any of our optimization methods as described in the paper for testing and validation graphs).
 
-The graph sets themselves are .pkl files that un-pickle to be list graphs.  Ultimately, the code wants these as a list of numpy arrays, however the ``load_graph_set(...)`` function in [experiments/utils.py](experiments/utils.py) will handle also convert lists of either networkx graphs or scipy sparse matrices into the correct form (these are more memory efficient ways of storing large graphs).  If you wish to point the code at custom sets of graphs, they should match one of these formats and be appropriately stored in a .pkl file.
+The graph sets themselves are .pkl files that un-pickle to be list graphs.  Ultimately, the code wants these as a list of numpy arrays, however the ``load_graph_set(...)`` function in [experiments/utils.py](experiments/utils.py) will also convert lists of either networkx graphs or scipy sparse matrices into the correct form (these are more memory efficient ways of storing large graphs).  If you wish to point the code at custom sets of graphs, they should match one of these formats and be appropriately stored in a .pkl file.
 
 ##### [experiments](experiments)
 
