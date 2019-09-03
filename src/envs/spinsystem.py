@@ -486,24 +486,6 @@ class SpinSystemBase(ABC):
         else:
             return np.vstack((state, self.matrix_obs))
 
-    def get_result(self, snapshot, action):
-        """
-        A convenience function that
-        - loads snapshot,
-        - commits action via self.step,
-        - and takes snapshot again :)
-
-        :returns: next snapshot, next_observation, reward, is_done, info
-
-        Basically it returns next snapshot and everything that env.step would have returned.
-        """
-        self.load_snapshot(snapshot)
-
-        o, r, done, _ = self.step(action)
-        snapshot = self.get_snapshot()
-
-        return ActionResult(snapshot, o, r, done, _)
-
     def get_immeditate_rewards_avaialable(self, spins=None):
         if spins is None:
             spins = self._get_spins()
