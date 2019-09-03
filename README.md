@@ -11,7 +11,7 @@ Beyond standard packages found in most Python distributions (e.g. numpy, matplot
 - numba
 - pandas
 
-Alternatively, the included [environment.yml](environment.yml) file will produce a working environment called *spin-solver*.
+Alternatively, the included [environment.yml](environment.yml) file will produce a working environment called ``spin-solver``.
 
     >>> git clone --recursive https://github.com/tomdbar/eco-dqn
     >>> cd eco-dqn
