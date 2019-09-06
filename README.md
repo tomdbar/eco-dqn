@@ -56,11 +56,11 @@ Alternativley, the agent can be trained and tested with a single script.
     
 ##### Testing pre-trained agents
 
-A script to test pre-trained agents on different graph sets is provided in [``experiments/pre_trained_agent/test_eco.py``](experiments/pretrained_agent/test_eco.py). Simply edit the network_save_loc and graph_save_loc to point at the desired agent and test_graphs.  Moreover, the pretrained agents as produced for the paper can be found in [``experiments/pre_trained_agent/networks/eco/``](experiments/pre_trained_agent/networks/eco).
+A script to test pre-trained agents on different graph sets is provided in [``experiments/pre_trained_agent/test_eco.py``](experiments/pretrained_agent/test_eco.py). Simply edit the ``network_save_loc`` and ``graph_save_loc`` parameters to point at the desired agent and test_graphs.  Moreover, the pretrained agents as produced for the paper can be found in [``experiments/pre_trained_agent/networks/eco/``](experiments/pre_trained_agent/networks/eco).
     
 ##### Reproducing S2V-DQN agents and tests
     
-S2V-DQN is a framework origionally proposed by [Khalil *et al*](https://arxiv.org/abs/1704.01665) which we reimplemented to use the same network architecure as ECO-DQN.  As such, for every training and test script above, the equivalent S2V-DQN script can be found by replacing ``*_eco --> *_s2v``.
+S2V-DQN is a framework origionally proposed by [Khalil *et al*](https://arxiv.org/abs/1704.01665) which we reimplemented to use the same network architecure as ECO-DQN.  As such, for every training and test script above, the equivalent S2V-DQN script can be ran by replacing ``*_eco --> *_s2v``.
 
 *Please note this is our implementation of S2V-DQN, however the original repository is provided by Hanjun Dai [here](https://github.com/Hanjun-Dai/graph_comb_opt).*
     
@@ -73,7 +73,7 @@ Contains the graph instances used in the paper.  This is split into three catago
 - [``testing``](_graphs/testing): Sets of 50 graphs for each graph type and size.  These are the graphs against which the agents are tested during training.
 - [``validation``](_graphs/validation):  Sets of 100 graphs for each graph type and size.  These are the graphs on which the performances of trained agents are tested.
 
-Within each of these sub-folders, the ``opts/`` folder contains the "optimum" solutions/values (best known for the benchmarking graphs, and the best found by any of our optimization methods as described in the paper for testing and validation graphs).
+Within each of these sub-folders, the ``opts/`` folder contains the "optimum" solutions/values (best known for the benchmarking graphs, and the best found by any of our optimization methods as described in the supplemental material of the paper for testing and validation graphs).
 
 The graph sets themselves are .pkl files that un-pickle to be list graphs.  Ultimately, the code wants these as a list of numpy arrays, however the ``load_graph_set(...)`` function in [``experiments/utils.py``](experiments/utils.py) will also convert lists of either networkx graphs or scipy sparse matrices into the correct form (these are more memory efficient ways of storing large graphs).  If you wish to point the code at custom sets of graphs, they should match one of these formats and be appropriately stored in a .pkl file.
 
@@ -90,7 +90,7 @@ Contains source code for ECO-DQN.  This consists of three directories which, at 
 
 ## Reference
 
-If you find this work or the associated paper useful, it can be cited as:
+If you find this work or the associated paper useful, it can be cited as below.
 
     @article{...,
     title={Exploratory Combinatorial Optimization with Reinforcement Learning},
