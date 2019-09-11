@@ -92,8 +92,8 @@ Contains source code for ECO-DQN.  This consists of three directories which, at 
 
 If you find this work or the associated paper useful, it can be cited as below.
 
-    @article{...,
+    @article{barrett19exploratory,
     title={Exploratory Combinatorial Optimization with Reinforcement Learning},
-    author={...},
-    journal={arXiv preprint arXiv:XXXX.XXXX},
+    author={Thomas D Barrett and William R Clements and Jakob N Foerster and A. I. Lvovsky},
+    journal={arXiv preprint arXiv:1909.04063},
     year={2019}
