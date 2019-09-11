@@ -96,4 +96,4 @@ If you find this work or the associated paper useful, it can be cited as below.
     title={Exploratory Combinatorial Optimization with Reinforcement Learning},
     author={Thomas D Barrett and William R Clements and Jakob N Foerster and A. I. Lvovsky},
     journal={arXiv preprint arXiv:1909.04063},
-    year={2019}
+    year={2019}}
