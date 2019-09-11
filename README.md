@@ -1,6 +1,6 @@
 # eco-dqn
 
-Implementation of ECO-DQN as reported in "Exploratory Combinatorial Optimization with Reinforcement Learning".
+Implementation of ECO-DQN as reported in "Exploratory Combinatorial Optimization with Reinforcement Learning" ([arXiv link](https://arxiv.org/abs/1909.04063)).
 
 ## Requirements
 
