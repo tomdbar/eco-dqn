@@ -44,7 +44,7 @@ Agents are then typically tested on graphs of the same type of the same or great
  
 *Edit these scripts to only test on a subset of possible graph sizes if desired.*
     
-The creates a directory ``ER_20spin/eco/data`` to store following for every graph size tested on.
+This creates a directory ``ER_20spin/eco/data`` to store following for every graph size tested on.
 - The averaged results, summarized in a pandas dataframe and saved to ``results_xxx.pkl``.
 - The raw results on each graph, summarized in a pandas dataframe and saved to ``results_xxx_raw.pkl``.
 - The full history of every test episode, saved to ``results_xxx_histories.pkl``.
