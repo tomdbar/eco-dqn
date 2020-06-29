@@ -1,6 +1,12 @@
 # eco-dqn
+[![Generic badge](https://img.shields.io/badge/arXiv-1909.04063-<COLOR>.svg)](https://arxiv.org/abs/1909.04063)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](./LICENSE)
 
-Implementation of ECO-DQN as reported in "Exploratory Combinatorial Optimization with Reinforcement Learning" ([arXiv link](https://arxiv.org/abs/1909.04063)).
+---
+
+Implementation of ECO-DQN as reported in ["Exploratory Combinatorial Optimization with Reinforcement Learning"](https://arxiv.org/abs/1909.04063)).
+
+---
 
 ## Requirements
 
