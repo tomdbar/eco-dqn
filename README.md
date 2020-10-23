@@ -4,7 +4,7 @@
 
 ---
 
-Implementation of ECO-DQN as reported in ["Exploratory Combinatorial Optimization with Reinforcement Learning"](https://arxiv.org/abs/1909.04063)).
+Implementation of ECO-DQN as reported in ["Exploratory Combinatorial Optimization with Reinforcement Learning"](https://arxiv.org/abs/1909.04063).
 
 ---
 
